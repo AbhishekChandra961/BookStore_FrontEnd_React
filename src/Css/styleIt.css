@@ -1,0 +1,98 @@
+.cartlogo {
+  align-items: center;
+}
+.bookCard {
+  width: 300px;
+  height: 520px;
+  margin: 1px;
+}
+.bookCard:hover {
+  box-shadow: 10px 10px 10px 2px rgba(0, 0, 0, 0.24);
+}
+.back {
+  background-color: rgb(205, 228, 246);
+}
+.homeContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+}
+.bookCard {
+  margin: 50px;
+}
+.addtocart {
+  display: flex;
+  background-color: rgb(92, 199, 248);
+  padding: 12px;
+  text-align: center;
+  border-radius: 5px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.cart-switch {
+  padding-left: 70px;
+  margin-right: 0;
+}
+.cartTitle {
+  margin: auto;
+  text-align: center;
+}
+.cartBooks {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  /* padding-left: 25%;
+  padding-top: 25%; */
+  /* padding: auto; */
+  align-items: center;
+  margin: auto;
+  justify-content: center;
+}
+
+.cardContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  border: rgb(113, 192, 245) solid 1px;
+  width: 700px;
+  background-color: rgb(255, 255, 255);
+}
+
+.bookImage {
+  width: 128px;
+  height: 128px;
+}
+
+.cardText {
+  flex-grow: 1;
+}
+
+.bookPrice {
+  /* margin-left: auto; */
+  margin-top: 10px;
+}
+.address {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  /* padding-left: 25%;
+  padding-top: 25%; */
+  /* padding: auto; */
+  align-items: center;
+  margin: auto;
+  justify-content: center;
+}
+.total {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  /* padding-left: 25%;
+  padding-top: 25%; */
+  /* padding: auto; */
+  align-items: center;
+  margin: auto;
+  justify-content: center;
+}
