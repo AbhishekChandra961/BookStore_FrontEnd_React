@@ -13,6 +13,7 @@ import PlaceOrders from "./Components/PlaceOrder/PlaceOrders";
 import ViewCart from "./Components/Cart/ViewCart";
 import Cart from "./Components/Cart/Cart";
 import SuccessOrder from "./Components/Cart/SuccessOrder";
+import About from "./Components/About/About";
 import { Route, Routes } from "react-router-dom";
 import { useState } from "react";
 
@@ -46,6 +47,7 @@ function App() {
         <Route path="/viewcart" element={<ViewCart />}></Route>
         <Route path="/order" element={<PlaceOrders />}></Route>
         <Route path="/success" element={<SuccessOrder />}></Route>
+        <Route path="/about" element={<About />}></Route>
       </Routes>
     </>
   );

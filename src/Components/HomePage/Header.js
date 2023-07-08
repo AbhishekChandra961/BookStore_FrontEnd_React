@@ -20,6 +20,7 @@ import LockOpenIcon from "@mui/icons-material/LockOpen";
 import "../../Css/styleIt.css";
 import shadows from "@mui/material/styles/shadows";
 import { Link, useNavigate, useParams } from "react-router-dom";
+import About from "../About/About";
 import UserData from "../../Service/UserService/UserData";
 import ButtonGroup from "@mui/material/ButtonGroup";
 
@@ -50,6 +51,7 @@ function Header({ userDetails }) {
 
   const handleCloseNavMenu = () => {
     setAnchorElNav(null);
+    navigate("/about");
   };
 
   const handleCloseUserMenu = () => {

@@ -10,6 +10,7 @@ import OrderService from "../../Service/PlaceOrderService/OrderService";
 import ButtonGroup from "@mui/material/ButtonGroup";
 import Button from "@mui/material/Button";
 import LuggageIcon from "@mui/icons-material/Luggage";
+import Header from "../HomePage/Header";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import RemoveCircleOutlineIcon from "@mui/icons-material/RemoveCircleOutline";
 import "../../Css/styleIt.css";
@@ -94,6 +95,7 @@ export default function ViewCart() {
 
   return (
     <>
+      <Header />
       <Typography variant="h2" className="cartTitle">
         <LuggageIcon fontSize="large" />
         Order View
@@ -128,7 +130,7 @@ export default function ViewCart() {
                       component="div"
                       className="bookPrice"
                     >
-                      ₹{book.bookStore.price}*
+                      ₹{book.bookStore.price} X
                     </Typography>
                   </div>
                 </div>
